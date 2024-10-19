@@ -1,0 +1,124 @@
+.container{
+    width: 100%;
+}
+
+h1{
+    color: #ff6b82;
+    text-align: center;
+}
+
+h2{
+    margin: 1px;
+}
+
+.main{
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.input_radio{
+    accent-color: #ff6b82;
+}
+
+label{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.off{
+    background-color: #ff6b82;
+    font-size: 20px;
+    font-weight:bold;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.box_1{
+    width: 400px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.box_2{
+    width: 400px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+padding: 15px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.most{
+    color: #fff;
+    background: #ff6b82;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: -7px;
+    right: 5px;
+opacity: 0.8;
+}
+
+.box_3{
+    width: 400px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+padding: 15px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.box_1:hover,.box_2:hover,.box_3:hover{
+    background-color: #fff9fa;
+    border: 3px solid #ff6b82;
+}
+
+
+
+.total
+{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.free{
+    color: #ff6b82;
+}
+
+
+button{
+    color: #fff;
+    background:  #ff6b82;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+}
+
+
+select{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 80px;
+}
+
