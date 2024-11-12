@@ -28,6 +28,7 @@ for (var i = 0; i < boxes.length; i++) {
             currRadio.checked = true;
             currCollapsible.classList.add("box-active");
         }
+        
     });
 }
 
